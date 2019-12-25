@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of Table 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 SimpleTable-root-1 MuiPaper-rounded"
+>
+  <table
+    className="MuiTable-root SimpleTable-table-2"
+  >
+    <thead
+      className="MuiTableHead-root"
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head"
+          scope="col"
+        >
+          Package
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+          scope="col"
+        >
+          Last Commit
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+          scope="col"
+        >
+          Latest Package
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+          scope="col"
+        >
+          Maintainers
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+    >
+      <tr
+        className="MuiTableRow-root"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+          scope="row"
+        >
+          @ffri/sample1
+        </th>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2018/12/31
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2018/12/01
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+          scope="row"
+        >
+          @ffri/sample2
+        </th>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2018/12/31
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2018/12/01
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+        >
+          2
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  server:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - NPM_DEVS_VISUALIZER_CLIENT_SECRET
+      - NPM_DEVS_VISUALIZER_REDIRECT_URL
+  client:
+    build:
+      context: ./frontend
+      args:
+        - NPM_DEVS_VISUALIZER_REDIRECT_URL
+        - NPM_DEVS_VISUALIZER_CLIENT_ID
+    ports:
+      - "1234:1234"
+

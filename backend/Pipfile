@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+black = "==19.3b0"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+email-validator = "*"
+requests = "*"
+sqlalchemy = "*"
+async-exit-stack = "*"
+async-generator = "*"
+
+[requires]
+python_version = "3.6"

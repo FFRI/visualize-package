@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of Graph 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 Graph-root-1 MuiPaper-rounded"
+>
+  <div>
+    Drawing Chart...
+  </div>
+</div>
+`;
