@@ -25,9 +25,9 @@ Alternatively, you can use Docker. See [Using Docker](#Using-Docker-Optional).
 ### GitHub OAuth (Optional)
 To use GitHub OAuth, you need to set the below environment variables.
 ```
-NPM_DEVS_VISUALIZER_CLIENT_ID=<your client_id of GitHub OAuth>
-NPM_DEVS_VISUALIZER_REDIRECT_URL=<your redirect_url of GitHub OAuth>
-NPM_DEVS_VISUALIZER_CLIENT_SECRET=<your client_secret of GitHub OAuth>
+export NPM_DEVS_VISUALIZER_CLIENT_ID=<your client_id of GitHub OAuth>
+export NPM_DEVS_VISUALIZER_REDIRECT_URL=<your redirect_url of GitHub OAuth>
+export NPM_DEVS_VISUALIZER_CLIENT_SECRET=<your client_secret of GitHub OAuth>
 ```
 See https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/.
 
