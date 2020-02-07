@@ -5,7 +5,8 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
       'jest-transform-stub'
   },
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node']
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  modulePathIgnorePatterns: ['.qawolf']
 }
 process.env = Object.assign(process.env, {
   NPM_DEVS_VISUALIZER_CLIENT_ID: 'aaaaaaaa',
